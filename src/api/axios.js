@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://one01488862-comp3123-assignment1-1.onrender.com/api/v1",
+  baseURL: "http://localhost:5000/api/v1",
 });
 
 // ADD AUTH TOKEN TO EVERY REQUEST
